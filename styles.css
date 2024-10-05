@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-section {
+    background-color: #7CB9E8;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content-section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #7CB9E8;
+    text-decoration: none;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    border-radius: 50%; /* This creates the circular effect */
+    object-fit: cover; /* This ensures the image covers the entire circle */
+    margin-right: 20px; /* Space between the photo and the text */
+    float: left; /* Align the photo to the left of the text */
+}
+
+
+.skills-section {
+    background-color: white; /* Matches the body background for continuity */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Span the full width of the page */
+    margin: 20px 0; /* Add some vertical margin */
+    text-align: left; /* Align the text properly */
+    font-family: Arial, sans-serif; /* Matching font */
+}
+
+
+.skill-title {
+    font-weight: bold;
+    color: #333; /* Harmonize color scheme */
+    font-size: 1.2em;
+}
+
+.skill-item {
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+
+.project {
+    margin-bottom: 15px;
+    overflow: auto; /* Clear floats */
+}
+
+.publication-image {
+    width: 150px; /* Smaller square shape */
+    height: 150px; /* Smaller square shape */
+    float: left; /* Align the image to the left */
+    margin-right: 15px; /* Space between image and text */
+    object-fit: cover; /* Ensure image covers the square without distortion */
+    border-radius: 4px; /* Optional: slight rounding of corners */
+}
+
+.project h3, .project p, .project a {
+    overflow: hidden; /* Ensure text wraps properly */
+}
+
+#home a {
+    color: Blue; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+#home a:hover {
+    color: grey; /* Hover color */
+}
+
+.project a {
+    color: blue; /* Default color for project links */
+    text-decoration: none; /* Remove underline */
+}
+
+.project a:hover {
+    color: lightblue; /* Hover color for project links */
+}
+
+.contact-links {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center align items */
+    margin-top: 20px; /* Add some space above */
+}
+
+.contact-links a {
+    color: #7CB9E8; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add horizontal spacing between links */
+}
+
+.contact-links a:hover {
+    color: #A3C1E0; /* Light blue color on hover */
+}
+
